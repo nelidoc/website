@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import time
 
 
-# load_dotenv()
+load_dotenv()
 
 st.set_page_config(page_title="Neli", page_icon="./logo.png")
 
