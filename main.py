@@ -33,7 +33,7 @@ for value, index in enumerate(source_list):
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
-    st.session_state.messages = [{"role": "assistant", "content": "Hi, I am neli, I can help you to interact with git repositories.     ?"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Hi, I am neli, I can help you to interact with git repositories."}]
 
 
 
